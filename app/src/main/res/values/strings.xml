@@ -1,31 +1,38 @@
 <resources>
+
+    <string name="SubmitText">Submit</string>
+
+    <string name="EditText">"Type your answer here..."</string>
+
+    <string name="Correct">"Correct! Score = "</string>
+    <string name="Incorrect">"Inncorrect! Score = "</string>
     <string name="app_name">QuizzApp</string>
-    <string name="Q1">Question1: Which Term is correct to decalrea integer?</string>
-    <string name="Q2">Question2: What method is correct to set an image on an ImageView in the MainActivity?</string>
+    <string name="Q1">Question1: Which term is correct to declare an integer?</string>
+    <string name="Q2">Question2: Type the correct method to set an image on an ImageView in the MainActivity? (do not give it an Image)</string>
     <string name="Q3">Question3: What method is used to change the color of a TextViews text?</string>
-    <string name="Q4">Question4: What property in XML specifies how to align the text inside its view?</string>
+    <string name="Q4">Question4: Out of this list, what are NOT two valid types in Android?</string>
     <string name="Q5">Question5: What property in XML is used when a button is tapped to run the code in the MainActivity?</string>
     <string name="Q6">Question6: What syntax do you use to find a view in your activity_main.xml file?</string>
 
     <string name="Q1A1">int number = Int(7); </string>
-    <string name="Q1A2">int number = 7; </string>
-    <string name="AQ1A3">number num = 7; </string>
+    <string name="AQ1A2">int number = 7; </string>
+    <string name="Q1A3">number num = 7; </string>
     <string name="Q1A4">int number = 7 </string>
 
-    <string name="Q2A1">.setImage(); </string>
-    <string name="AQ2A2">.setImageResource(); </string>
-    <string name="Q2A3">.set(); </string>
-    <string name="Q2A4">.setImageSrc(); </string>
+    <string name="Q2A1">.setImage();</string>
+    <string name="AQ2A2">.setImageResource();</string>
+    <string name="Q2A3">.set();</string>
+    <string name="Q2A4">.setImageSrc();</string>
 
     <string name="Q3A1">.color() </string>
     <string name="Q3A2">.setColor(); </string>
     <string name="AQ3A3">.setTextColor(); </string>
     <string name="Q3A4">.setColorText(); </string>
 
-    <string name="Q4A1">android:textAlignment </string>
-    <string name="Q4A2">android:weight </string>
-    <string name="Q4A3">android:textSize </string>
-    <string name="AQ4A4">android:gravity </string>
+    <string name="AQ4A1">number</string>
+    <string name="Q4A2">float</string>
+    <string name="Q4A3">int</string>
+    <string name="AQ4A4">digit</string>
 
     <string name="Q5A1">android:onTap </string>
     <string name="AQ5A2">android:onClick </string>
